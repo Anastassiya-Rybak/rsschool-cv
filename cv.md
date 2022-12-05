@@ -2,7 +2,7 @@
 ## Frontend developer
   
   
-#### Contact info
+### Contact info
   
 **Location:** Astana, Kazakhstan  
 **Number:** +77776840869  
@@ -10,12 +10,12 @@
 **LinkedIn:** [Open Link](https://www.linkedin.com/in/anastassiya-rybak-web/)  
 
 
-#### Profile
+### Profile
 I'm a beginner front-end developer with a great desire to gain practical experience   
 and grow as a professional.
 
 
-#### Skills
+### Skills
 - HTML5
 - CSS3
 - SASS, LESS
@@ -26,7 +26,7 @@ and grow as a professional.
 - GIT
 
 
-#### Code example
+### Code example
 ```
     function evenOrOdd(number) {
     let result = '';
@@ -41,18 +41,18 @@ and grow as a professional.
 ```
 
 
-#### Expiriense
+### Expiriense
 * TRAINEE FRONTEND DEVELOPER
-    + TRAINEE FRONTEND DEVELOPER - 2022
+    + Mediana Services Limited - 2022
 - Created landing pages based on Figma layouts.
 - Implemented the user interface of the news portal on Vue.js.
 
 
-#### Education
+### Education
 **2022** - WEB DEVELOPER (_Decode.kz_)  
 **2019** - TOURISM BACHELOR'S DEGREE (_Karaganda Economic University_)  
 
 
-#### Langueges
+### Langueges
 **English** - Intermediate  
 **Russian** - Native 
