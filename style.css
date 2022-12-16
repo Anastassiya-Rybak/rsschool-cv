@@ -75,6 +75,7 @@ main {
 .main__left-side div {
     margin-bottom: 30px;
 }
+
 .main__left-side, 
 a {
     color: #fff;
@@ -185,6 +186,8 @@ a:hover {
 
 pre {
     background-color: rgba(176, 176, 176, 0.26);
+    height: 200px;
+    padding-top: 15px;
 }
 
 .code1 {
@@ -193,6 +196,19 @@ pre {
 
 .code2 {
     color: rgb(216, 108, 58) !important;
+}
+
+.education-div p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.education-div p span {
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 100;
 }
 
 /* Main end */
@@ -218,9 +234,475 @@ pre {
     object-fit: cover;
 }
 
-.footer span {
-    font-size: 18px;
+.footer h6 {
+    font-size: 16px;
+    font-weight: 100;
     color: #fff;
 }
 
 /* footer end */
+
+/* Adaptive start */
+
+@media (max-width: 1181px) {
+    .header__text-wrapper h1 {
+        font-size: 52px;
+    }
+
+    .my-projects {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap
+    }
+
+    .my-projects__item {
+        max-width: 100%;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .my-projects__item__img {
+        height: 120px;
+    }
+
+    pre {
+        max-height: 150px;
+        padding-top: 0;
+    }
+
+    pre p {
+        margin-top: 0;
+        padding-top: 0;
+        line-height: 0px;
+    }
+
+}
+
+@media (max-width: 765px) {
+    header {
+        max-height: 90px;
+        margin-top: 50px !important;
+    }
+
+    .header__img-wrapper {
+        max-height: 120px;
+    }
+
+    .header__text-wrapper {
+        margin-left: 25px;
+    }
+
+    .header__text-wrapper h1 {
+        font-size: 36px;
+        letter-spacing: 3px;
+    }
+
+    .header__text-wrapper span {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .my-projects__item {
+        width: 100%;
+    }
+
+    .my-projects__item__img {
+        height: 120px;
+    }
+
+    .main__left-side h2,
+    .main__right-side h2 {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .main__left-side b,
+    .main__right-side b {
+        font-size: 14px;
+    }
+
+    p,
+    li {
+        font-size: 12px;
+    }
+
+    .main__right-side div {
+        line-height: 15px;
+    }
+    
+    .expiriense__job-item {
+        font-size: 12px;
+    }    
+
+    .my-projects__item figcaption a {
+        font-size: 14px;
+    }
+    
+    pre {
+        margin-top: 15px;
+        padding-top: 0;
+        max-height: 150px;
+        font-size: 12px;
+    }
+
+    pre p {
+        margin-top: 0;
+        padding-top: 0;
+        line-height: 0px;
+    }
+
+    .education-div p {
+        margin-top: 10PX;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 10px;
+    }
+
+    .education-div p span {
+        margin-left: 15px;
+        font-size: 10px;
+        font-weight: 100;
+    }
+
+    .footer__img-wrapper {
+        max-width: 50px !important;
+        height: auto !important;
+    }
+
+    .footer,
+    .footer h6 {
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 660px) {
+    .main__left-side b {
+        font-size: 12px;
+    }
+    .main__left-side ul li {
+        word-spacing: 3px;
+    }    
+}
+
+@media (max-width: 540px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+    header {
+        max-height: 65px;
+        margin-top: 20px !important;
+    }
+
+    .header__img-wrapper {
+        max-height: 80px;
+        width: 20%;
+    }
+
+    .header__text-wrapper {
+        margin-left: 15px;
+    }
+
+    .header__text-wrapper h1 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .header__text-wrapper span {
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+
+    .my-projects {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .my-projects__item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .my-projects__item__img {
+        height: 55px;
+    }
+
+    .my-projects__item figcaption {
+        padding: 0;
+    }
+
+    .my-projects__item figcaption a {
+        font-size: 8px !important;
+        line-height: 20px;
+    }    
+
+    .main__left-side,
+    .main__right-side {
+        margin-top: 15px;
+    }
+
+    .main__left-side div {
+        margin-bottom: 15px;
+    }    
+
+    .main__left-side h2,
+    .main__right-side h2 {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+
+    .main__left-side b,
+    .main__right-side b {
+        font-size: 10px;
+    }
+
+    p,
+    li {
+        font-size: 8px;
+    }
+
+    .main__right-side div {
+        line-height: 10px;
+    }
+    
+    .main__right-side ul {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+
+    .expiriense {
+        line-height: 5px;
+        margin-top: 10px;
+    }
+
+    .expiriense__job-item {
+        font-size: 8px;
+    }    
+
+    .my-projects__item figcaption a {
+        font-size: 14px;
+    }
+    
+    pre {
+        margin-top: 15px;
+        padding-top: 0px;
+        max-height: 120px;
+        font-size: 8px;
+    }
+
+    pre p {
+        margin-top: 0;
+        padding-top: 0;
+        line-height: 0px;
+    }
+
+    .education-div p {
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 8px;
+    }
+
+    .education-div p span {
+        margin-left: 10px;
+        font-size: 8px;
+        font-weight: 100;
+    }
+
+    .footer__img-wrapper {
+        max-width: 30px !important;
+    }
+
+    .footer,
+    .footer h6 {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .container {
+        padding: 0 15px;
+    }
+
+    header {
+        max-height: 45px;
+    }
+
+    .header__img-wrapper {
+        max-height: 60px;
+        width: 20%;
+    }
+
+    .header__text-wrapper {
+        margin-left: 10px;
+        line-height: 15px;
+    }
+
+    .header__text-wrapper h1 {
+        font-size: 20px;
+    }
+
+    .header__text-wrapper span {
+        font-size: 14px;
+    }
+
+    .my-projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-projects__item {
+        width: 80%;
+        height: 60px;
+    }
+
+    .my-projects__item__img {
+        max-height: 40px;
+    }
+
+    .my-projects__item figcaption {
+        margin-top: -8px;
+    }
+
+    .my-projects__item figcaption a {
+        font-size: 6px !important;
+    }    
+
+    .main__left-side h2,
+    .main__right-side h2 {
+        font-size: 12px;
+    }
+
+    .main__left-side b,
+    .main__right-side b {
+        font-size: 8px;
+    }
+
+    p,
+    li {
+        font-size: 6px;
+    }
+
+    .main__right-side div {
+        line-height: 13px;
+        margin-bottom: 6px;
+    }
+    
+    .main__right-side ul {
+        line-height: 7px;
+    }
+
+    .expiriense {
+        line-height: 0px;
+    }
+
+    .expiriense__job-item {
+        font-size: 6px;
+    }  
+    
+    pre {
+        max-height: 120px;
+        font-size: 8px;
+        padding-top: 0;
+    }
+
+    pre p {
+        margin-top: 0;
+        padding-top: 0;
+        line-height: 0px;
+    }
+
+    .education-div p {
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 5px;
+    }
+
+    .education-div p span {
+        margin-left: 10px;
+        font-size: 6px;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 305px) {
+    header {
+        max-height: 40px;
+    }
+
+    .header__text-wrapper h1 {
+        font-size: 16px;
+    }
+
+    .header__text-wrapper span {
+        font-size: 10px;
+    }
+
+    .my-projects__item {
+        height: 55px;
+    }
+
+    .my-projects__item figcaption {
+        margin-top: -10px;
+    }
+
+    .my-projects__item figcaption a {
+        letter-spacing: 0px;
+    }    
+
+    .main__left-side h2,
+    .main__right-side h2 {
+        font-size: 9px;
+        margin-bottom: 5px;
+        text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.412);
+    }
+
+    .main__left-side b,
+    .main__right-side b {
+        font-size: 7px;
+    }
+
+    p,
+    li {
+        font-size: 6px;
+    }
+
+    .main__left-side div:nth-child(3) ul {
+        margin-left: 10px;
+    }    
+
+    .main__right-side div {
+        line-height: 10px;
+        margin-bottom: 6px;
+    }
+    
+    .main__right-side ul {
+        line-height: 7px;
+    }
+
+    pre {
+        padding-top: 0;
+        max-height: 120px;
+        font-size: 6px;
+    }
+
+    pre p {
+        
+        line-height: 0px;
+    }
+
+    .education-div p {
+        font-size: 7px;
+        line-height: 2px;
+    }
+
+    .footer,
+    .footer h6 {
+        font-size: 5px;
+    }
+}
+
+/* Adaptive start */
