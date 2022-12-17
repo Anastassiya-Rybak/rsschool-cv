@@ -1,0 +1,67 @@
+@media (max-width: 305px) {
+  header {
+    max-height: 40px;
+  }
+
+  .my-projects__item {
+    height: 55px;
+  }
+
+  .my-projects__item figcaption {
+    margin-top: -10px;
+  }
+
+  .my-projects__item figcaption a {
+    letter-spacing: 0px;
+  }    
+
+  .main__left-side h2,
+  .main__right-side h2 {
+    font-size: 9px;
+    margin-bottom: 5px;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.412);
+  }
+
+  .main__left-side b,
+  .main__right-side b {
+    font-size: 7px;
+  }
+
+  p,
+  li {
+    font-size: 6px;
+  }
+
+  .main__left-side div:nth-child(3) ul {
+    margin-left: 10px;
+  }    
+
+  .main__right-side div {
+    line-height: 10px;
+    margin-bottom: 6px;
+  }
+  
+  .main__right-side ul {
+    line-height: 7px;
+  }
+
+  pre {
+    padding-top: 0;
+    max-height: 120px;
+    font-size: 6px;
+  }
+
+  pre p {
+    line-height: 0px;
+  }
+
+  .education-div p {
+    font-size: 7px;
+    line-height: 2px;
+  }
+
+  .footer,
+  .footer h6 {
+    font-size: 5px;
+  }
+}
