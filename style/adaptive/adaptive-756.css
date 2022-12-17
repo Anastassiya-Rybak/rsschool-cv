@@ -1,0 +1,101 @@
+@media (max-width: 765px) {
+  header {
+    max-height: 90px;
+    margin-top: 50px !important;
+  }
+
+  .header__img-wrapper {
+    max-height: 120px;
+  }
+
+  .header__text-wrapper {
+    margin-left: 20px;
+    line-height: 30px;
+  }
+
+  .header__text-wrapper h1 {
+    letter-spacing: 3px;
+  }
+
+  .my-projects__item {
+    width: 100%;
+  }
+
+  .my-projects__item__img {
+    height: 120px;
+  }
+
+  .main__left-side h2,
+  .main__right-side h2 {
+    font-size: 20px;
+    margin-bottom: 7px;
+  }
+
+  .main__left-side b,
+  .main__right-side b {
+    font-size: 14px;
+  }
+
+  p,
+  li {
+    font-size: 12px;
+  }
+
+  .main__right-side div {
+    line-height: 15px;
+  }
+  
+  .expiriense__job-item {
+    font-size: 12px;
+  }    
+
+  .my-projects__item figcaption a {
+    font-size: 14px;
+  }
+  
+  pre {
+    margin-top: 15px;
+    padding-top: 0;
+    max-height: 150px;
+    font-size: 12px;
+  }
+
+  pre p {
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 0px;
+  }
+
+  .education-div p {
+    margin-top: 10PX;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 10px;
+  }
+
+  .education-div p span {
+    margin-left: 15px;
+    font-size: 10px;
+    font-weight: 100;
+  }
+
+  .footer__img-wrapper {
+    max-width: 50px !important;
+    height: auto !important;
+  }
+
+  .footer,
+  .footer h6 {
+    font-size: 12px;
+  }
+  
+}
+
+@media (max-width: 660px) {
+  .main__left-side b {
+    font-size: 12px;
+  }
+  .main__left-side ul li {
+    word-spacing: 3px;
+  }    
+}

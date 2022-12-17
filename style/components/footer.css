@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  max-width: 35%;
+}
+
+.footer__img-wrapper {
+  max-width: 100px !important;
+  height: auto !important;
+}
+
+.footer__img-wrapper__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer h6 {
+  font-size: 16px;
+  font-weight: 100;
+  color: #fff;
+}

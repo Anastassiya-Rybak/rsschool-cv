@@ -1,2 +1,2 @@
-https://Anastassiya-Rybak.github.io/rsschool-cv/cv
-https://Anastassiya-Rybak.github.io/rsschool-cv/
+[CV Markdown](https://Anastassiya-Rybak.github.io/rsschool-cv/cv)  
+[CV HTML](https://Anastassiya-Rybak.github.io/rsschool-cv/)
