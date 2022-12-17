@@ -44,19 +44,29 @@ header {
 }
 
 .header__text-wrapper h1 {
-    font-size: 62px;
+    font-size: calc(10px + 52 * (100vw/1210));
     letter-spacing: 4px;
     color: #fff;
     text-shadow: 0.5px 1px 2px rgba(0, 0, 0, 0.541);
 }
 
 .header__text-wrapper span {
-    font-size: 28px;
+    font-size: calc(7px + 21 * (100vw/1210));
     letter-spacing: 8px;
     word-spacing: 9px;
     font-weight: 600;
     color: rgba(53,53,53,1);
     text-shadow: 0.5px 1px 1px rgba(0, 0, 0, 0.204);
+}
+
+@media (max-width: 1210px) {
+    .header__text-wrapper h1 {
+        font-size: calc(10px + (52 + 52 * 0.7) * ((100vw - 270px) / 1210));
+    }
+    
+    .header__text-wrapper span {
+        font-size: calc(7px + (21 + 21 * 0.7) * ((100vw - 270px) / 1210));
+    }
 }
 
 /* Main start */
@@ -245,8 +255,8 @@ pre {
 /* Adaptive start */
 
 @media (max-width: 1181px) {
-    .header__text-wrapper h1 {
-        font-size: 52px;
+    .header__text-wrapper {
+        margin-left: 30px;
     }
 
     .my-projects {
@@ -289,17 +299,12 @@ pre {
     }
 
     .header__text-wrapper {
-        margin-left: 25px;
+        margin-left: 20px;
+        line-height: 30px;
     }
 
     .header__text-wrapper h1 {
-        font-size: 36px;
         letter-spacing: 3px;
-    }
-
-    .header__text-wrapper span {
-        font-size: 20px;
-        letter-spacing: 2px;
     }
 
     .my-projects__item {
@@ -403,16 +408,11 @@ pre {
 
     .header__text-wrapper {
         margin-left: 15px;
-    }
-
-    .header__text-wrapper h1 {
-        font-size: 26px;
-        letter-spacing: 1px;
+        line-height: 23px;
     }
 
     .header__text-wrapper span {
-        font-size: 16px;
-        letter-spacing: 0px;
+        letter-spacing: 3px;
     }
 
     .my-projects {
@@ -541,14 +541,6 @@ pre {
         line-height: 15px;
     }
 
-    .header__text-wrapper h1 {
-        font-size: 20px;
-    }
-
-    .header__text-wrapper span {
-        font-size: 14px;
-    }
-
     .my-projects {
         flex-direction: column;
         align-items: center;
@@ -631,14 +623,6 @@ pre {
 @media (max-width: 305px) {
     header {
         max-height: 40px;
-    }
-
-    .header__text-wrapper h1 {
-        font-size: 16px;
-    }
-
-    .header__text-wrapper span {
-        font-size: 10px;
     }
 
     .my-projects__item {
