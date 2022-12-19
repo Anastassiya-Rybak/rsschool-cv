@@ -46,6 +46,18 @@ body {
   text-shadow: 0.5px 1px 1px rgba(0, 0, 0, 0.204);
 }
 
+@media (min-width: 1220px) {
+  .header__text-wrapper h1 {
+    font-size: 62px;
+  }
+  .header__text-wrapper span {
+    font-size: 28px;
+  }
+  .nav {
+    max-width: 85%;
+  }
+}
+
 @media (max-width: 1210px) {
   .header__text-wrapper h1 {
       font-size: calc(10px + (52 + 52 * 0.7) * ((100vw - 270px) / 1210));
